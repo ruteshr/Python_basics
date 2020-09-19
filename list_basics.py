@@ -44,7 +44,16 @@ a=['a','b','c','d']
 b=['xq','dy','z']
 for i in b:
     a.append(i)
-print(a)
+print(a
+      
+#========================ADDING TWO LIST ELEMENT BY ELEMENT========================#
+a=[1,2,3]
+b=[1,1,1,1]
+c=[]
+for i,j in zip(a,b):
+    c.append(i+j)
+print(c)#Output: [2,3,4]
+
 #========================SPLITTING WORD TO LIST ========================#
 a='ragul'
 b=[]
@@ -161,3 +170,5 @@ a=['ragul','B','ragavendra','B','ragul']
 b=set(a)
 print(b)#Output: {'ragul', 'B', 'ragavendra'}
 print(lsit(b))#Output: ['ragul', 'B', 'ragavendra']
+
+
