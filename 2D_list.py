@@ -25,3 +25,24 @@ OUTPUT:
 3 4
 5 6
 '''
+#=============================================================================================
+m=int(input("enter no. of row"))
+n=int(input("enter no. of col"))
+mat=[]
+for i in range(m):
+    ma=list(map(int,input().split()))
+    mat.append(ma)
+for i in range(m):
+    for j in range(n):
+        print(mat[i][j],end=" ")
+    print()
+'''
+INPUT:
+2 4 7 8                                                                                                                         
+2 5 8 7                                                                                                                         
+6 9 7 1 
+
+OUTPUT:
+2 4 7 8                                                                                                                         
+2 5 8 7                                                                                                                         
+6 9 7 1
